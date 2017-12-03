@@ -1,17 +1,25 @@
 
 
-// Exercise 3 & 4 & 5
+// 1. Create an array of the days of the week
 
-var days_of_weeks = [["monday", "Tuesday", "Wednesday", "Thursday", "Friday"],["Saturday","Sunday"]];
+var daysOfTheWeek = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 
+// 2. My calendar says the first day is Sunday...
 
-var removed = days_of_weeks.splice(0,1);
+daysOfTheWeek.unshift(daysOfTheWeek.pop());
 
-console.log(days_of_weeks);
+// // 3. Create a new array of the days of the week:
 
-console.log(removed);
+var weekdays = daysOfTheWeek.slice(1,6)
 
+ var weekends = [].concat(daysOfTheWeek.slice(-1), daysOfTheWeek.slice(0,1));
 
-////??????
+ console.log(weekends);
 
-days_of_the_weeks.sort();
+// 4.Remove either weekdays or the weekends
+
+daysOfTheWeek.shift() + daysOfTheWeek.pop();
+
+// // 5 sort the remaining days alphabetically 
+
+ daysOfTheWeek.sort();
