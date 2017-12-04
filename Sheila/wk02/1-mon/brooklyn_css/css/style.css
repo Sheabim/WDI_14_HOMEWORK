@@ -1,0 +1,32 @@
+
+
+
+.wrapper {
+
+margin: 0 auto;
+
+  max-width: 960px; /* 2 */
+  color: #696969;
+
+
+}
+
+.wrapper h2 {
+
+font-weight: bold;
+
+}
+
+.press img{
+
+	border: 5px solid #B9B9B9;
+	
+}
+
+.a {
+	text decoration: none;
+}
+
+.date {
+	color: blue;
+}
