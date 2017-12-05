@@ -1,0 +1,48 @@
+*
+{
+box-sizing: border-box;
+}
+
+
+.container {
+
+	background-color: mistyrose;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+main {
+display: inline-block;
+background-color: lightgreen;
+width: 60%;
+
+
+}
+
+aside {
+	padding: 10px;
+	vertical-align: top;
+display: inline-block;
+background-color: plum;
+width:38%;
+
+}
+
+
+article{
+
+	margin-bottom: 40px
+
+}
+
+airticle:last-child{
+
+margin-bottom: 40px;
+
+
+}
+
+article img{
+	width: 100%;
+}

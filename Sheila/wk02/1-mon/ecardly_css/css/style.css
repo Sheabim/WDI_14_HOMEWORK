@@ -68,7 +68,10 @@ aside {
    font-weight: bold;
    font-size: 11px;
    display: inline-block;
-    max-width: 600px; 
+    max-width: 600px;
+    vertical-align: top;
+   
+
 
 
 
