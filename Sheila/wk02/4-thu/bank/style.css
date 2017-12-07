@@ -1,0 +1,111 @@
+	*{
+	box-sizing: border-box;
+
+	}
+
+
+
+	}
+
+
+	body{
+
+	margin: 0 auto;
+
+
+
+
+	}
+
+	.bank { 
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	padding-left: 100px;
+	margin: 60px;
+
+	}
+
+
+	.logo1 {
+	border: 1px solid ;
+	background-color: red;
+	text-align: center;
+	width: 200px;
+	height:70px;
+	display: inline-block;
+	padding-top: 30px
+
+
+
+	}
+
+
+
+	main {
+	padding-top: 100px;
+	margin:0 auto;
+	padding-left: 100px;
+
+	display: flex;
+	justify-content: center;
+
+
+
+	}
+
+	header p { display: inline;
+
+	}
+
+
+	
+
+	.savac {
+	border: 1px solid black;
+	display:inline-block;
+
+	background-color: grey;
+	width: 300px;
+	padding: 50px;
+
+
+	}
+
+
+	.cheque {
+	border: 1px solid black;
+	display:inline-block;
+	text-align: center;
+	background-color: grey;
+	width: 300px;
+	padding: 50px;
+	margin-left: 100px;
+	}
+
+	.cashout {
+	background-color: lightgrey;
+	border-radius: 5px;
+	transition: 2000ms;
+
+	}
+
+	.deposit {
+	background-color: lightgrey;
+	border-radius: 5px;
+
+
+	}
+
+	.amount{
+	padding-top: 10px;
+	margin: 10px;
+
+	}
+
+	.zero {
+
+	text-align: center;
+    font-size: 30px;
+
+	}
