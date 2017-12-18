@@ -25,3 +25,13 @@ value1.textContent = result;
 depositNum.addEventListener('click', add)
 
 cashoutNum.addEventListener('click', minus)
+
+
+
+var depositSavigs = function(){
+savingResults = savingResults + Number(savingInput.value);
+savinfBalance.tex = savingResults;
+sa
+
+
+}
