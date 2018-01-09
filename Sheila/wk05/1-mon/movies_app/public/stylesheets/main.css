@@ -1,6 +1,7 @@
 
 body{
   font-family: "Lucida Console", Monaco, monospace 
+
 }
 
 
@@ -13,6 +14,14 @@ input[type=text] {
   
 }
 
+head title{
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+
+}
 
 
 input placeholder{
@@ -27,6 +36,17 @@ button{
    border-radius: 5px;
    
  }
+
+.h1 {
+   border: 1px solid black;
+
+}
+
+.h{
+    border: 1px solid black;
+
+
+}
 
 
 nav a {
@@ -63,9 +83,10 @@ p {
 }
 
 
+
 .title{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border: 1px solid black;
     padding: 5px;
     text-align: center;
