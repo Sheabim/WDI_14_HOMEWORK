@@ -8,7 +8,7 @@ user_ansewr = gets.to_i
 
 while user_ansewr != number do
 
-  if user_ansewr >= number
+  if user_ansewr.to_s  >= number
 		puts user_ansewr.to_s + '  too high'
 
 
